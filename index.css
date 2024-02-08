@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(lto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px; 
+    max-width: 600px; 
+    width: 100%; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+}
+
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.school-name {
+    font-size: 18px;
+    color: white;
+}
+
+.sub-header {
+    font-size: 18px;
+    color: white;
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+
+}
+
+h3 {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.form-group {
+    margin-bottom: 20px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 14px;
+}
+
+.radio-buttons {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.radio-buttons label {
+    margin-right: 10px;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitButton {
+    background-color: blue;
+    color: white;
+    margin-left: 390px;
+}
+
+#submitButton:hover {
+    background-color: black;
+}
+
+#clearButton {
+    background-color: blue; 
+    color: white;
+}
+
+#clearButton:hover {
+    background-color: black; 
+}
+
+@media only screen and (max-width: 600px) {
+    .form-container {
+        padding: 10px;
+        max-width: 90vw;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="tel"],
+    select {
+        width: calc(100% - 20px);
+    }
+
+    .radio-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .radio-buttons label {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+}
