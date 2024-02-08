@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 120vh; 
+    background-image: url(lto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+.header {
+    width: auto;
+    height: 120px;
+  
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.logo-container {
+    margin-top: 15px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.school-name {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.sub-header {
+    font-size: 18px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh; 
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 170px;
+    margin-bottom: 10px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px; 
+    max-width: 160vh; 
+    margin-top: -100px;
+    width: 100%; 
+    border-radius: 5px;
+    height: 90vh;
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.form-row3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 15px; 
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 100%; 
+}
+
+
+#names {
+    margin-left: 170px;
+}
+
+#name {
+    width: 450px;
+    margin-left: 170px;
+}
+
+#license-number {
+    width: 200px;
+    margin-right: 230px;
+}
+
+#home {
+    margin-left: 170px;
+    margin-top: -30px;
+}
+
+#address {
+    margin-left: 170px;
+}
+#address {
+    width: 450px;
+}
+
+#tin{
+    margin-top: -30px;
+  
+}
+#tin-number {
+    width: 200px;
+    margin-right: 230px;
+
+}
+
+#ages {
+    margin-left: 170px;
+    margin-top: -30px;
+}
+
+#age {
+    width: 60px;
+    margin-left: 170px;
+    margin-right: 20px;
+}
+
+
+
+#sex {
+   width: 100px;
+   margin-left: -40px;
+
+  
+}
+
+#civil{
+    margin-top: -30px;
+    margin-left: -180px;
+}
+
+#status {
+    width: 110px;
+    margin-left: -180px;
+}
+
+#National{
+    margin-top: -30px;
+    margin-left: -220px;
+   
+}
+#Nationality {
+    margin-left: -220px;
+    margin-right: 230px;
+    width: 200px;
+}
+
+#blood {
+    margin-right: -200px;
+    margin-top: -30px;
+    margin-left: -110px;
+
+}
+
+#blood-type {
+    margin-right: 200px;
+    margin-left: -110px;
+    width: 80px;
+}
+
+#email-address {
+    margin-top: -30px;
+    margin-left: 170px;
+}
+#email {
+    margin-left: 170px;
+    width: 450px;
+}
+
+#guardian {
+    margin-top: -30px;
+    margin-left: 170px;
+}
+
+#birth {
+    margin-right: 100px;
+}
+#parent {
+    margin-left: 170px;
+    width: 450px;
+}
+
+#landline {
+    margin-top: -30px;
+    margin-left: -40px;
+    margin-right: 370px;
+}
+
+#landlines {
+    margin-left: -40px;
+    width: 200px;
+}
+#cel {
+    margin-left: 685px;
+    margin-top: -110px;
+}
+#cellphone {
+    margin-left: 685px;
+    width: 200px;
+}
+
+
+#submitButton {
+    position: absolute;
+    margin-top: -10px; 
+    margin-left: -50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    left: 151vh;
+    text-align: center;
+    height: 50px;
+    border-radius: 15px;
+}
+
+#submitButton:hover {
+    background-color: black;
+}
+
+#sexes {
+    margin-top: -27px;
+    margin-left: -40px;
+}
+
+.radio-buttons {
+    display: inline-block;
+    margin-right: 120px;
+}
+
+.radio-buttons input[type="radio"] {
+    margin-right: 10px;
+
+}
+
+.radio-buttons label {
+    margin-right: 20px;
+
+}
+
+#clearButton {
+    margin-top: -20px;
+    margin-left: 170px;  
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue; 
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    height: 50px;
+    width: 80px;
+}
+
+#clearButton:hover {
+    background-color: black; 
+}
