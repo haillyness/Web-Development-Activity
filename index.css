@@ -85,6 +85,7 @@ select {
 .radio-buttons {
     display: inline-flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .radio-buttons label {
