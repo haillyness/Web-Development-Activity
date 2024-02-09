@@ -152,6 +152,7 @@ button {
     }
 
     #submitButton {
-        margin-left: 160px;
+        margin-left: 170px;
+        margin-top: -40px;
     }
 }
