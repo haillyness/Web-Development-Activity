@@ -85,7 +85,7 @@ select {
 .radio-buttons {
     display: inline-flex;
     justify-content: space-between;
-    gap: 40px;
+ 
 }
 
 .radio-buttons label {
@@ -135,8 +135,8 @@ button {
     }
 
     .radio-buttons {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: inline-flex;
+        justify-content: space-between;
     }
 
     .radio-buttons label {
@@ -151,6 +151,6 @@ button {
     }
 
     #submitButton {
-        margin-left: 198px;
+        margin-left: 180px;
     }
 }
