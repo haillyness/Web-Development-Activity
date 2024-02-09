@@ -136,6 +136,7 @@ button {
     .radio-buttons {
         flex-direction: inline-flex;
         justify-content: space-between;
+        gap: 30px;
     }
 
     .radio-buttons label {
@@ -150,6 +151,6 @@ button {
     }
 
     #submitButton {
-        margin-left: 180px;
+        margin-left: 170px;
     }
 }
